@@ -1,0 +1,90 @@
+.tableWrapper {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  margin-top: 1.5rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: 0.9rem;
+}
+
+.th,
+.thTitle {
+  background: #ec0000;
+  color: #fff;
+  padding: 0.85rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+
+.thTitle {
+  min-width: 280px;
+}
+
+.th:hover,
+.thTitle:hover {
+  background: #c60000;
+}
+
+.sortIcon {
+  opacity: 0.4;
+  margin-left: 0.3rem;
+  font-size: 0.75rem;
+}
+
+.sortIconActive {
+  margin-left: 0.3rem;
+  font-size: 0.75rem;
+  color: #ffd0d0;
+}
+
+.rowEven {
+  background: #fff;
+}
+
+.rowOdd {
+  background: #fef5f5;
+}
+
+.rowEven:hover,
+.rowOdd:hover {
+  background: #ffe5e5;
+}
+
+.tdScore {
+  padding: 0.75rem 1rem;
+  font-weight: 700;
+  color: #ec0000;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tdTitle {
+  padding: 0.75rem 1rem;
+}
+
+.td {
+  padding: 0.75rem 1rem;
+  color: #444;
+  white-space: nowrap;
+}
+
+.link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+
+.link:hover {
+  color: #ec0000;
+  text-decoration: underline;
+}
